@@ -1,7 +1,9 @@
 const express = require('express');
+const cors = require('cors');
 const run = require('../vehicle_maintence_scheduler/schedule');
 
 const app = express();
+app.use(cors());
 
 app.use((req, res, next) => {
   let d = new Date().toISOString();
