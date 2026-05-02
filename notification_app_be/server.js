@@ -1,5 +1,5 @@
 const express = require('express');
-const run = require('./schedule');
+const run = require('../vehicle_maintence_scheduler/schedule');
 
 const app = express();
 

@@ -1,5 +1,5 @@
 const axios = require('axios');
-const Log = require('./log');
+const Log = require('../logging_middleware/log');
 
 const token = "YOUR_ACCESS_TOKEN";
 
