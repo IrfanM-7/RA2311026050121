@@ -1,6 +1,6 @@
 const express = require('express');
 const cors = require('cors');
-const run = require('../vehicle_maintence_scheduler/schedule');
+const run = require('../vehicle_scheduling/schedule');
 
 const app = express();
 app.use(cors());
